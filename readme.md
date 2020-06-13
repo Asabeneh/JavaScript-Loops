@@ -34,6 +34,7 @@
   - [break](#break)
   - [continue](#continue)
 - [Conclusions](#conclusions)
+- [More Materials](#more-materials)
 
 In programming we use different loops to carry out repetitive tasks. Therefore, loop can help us to automate tedious and repetitive task. JavaScript has also different types of loops which we can use to work on repetitive task. 
 
@@ -272,14 +273,25 @@ for(let i = 0; i <= 5; i++){
 - forEach is used for array
 - for in is used for object  
 
+## More Materials
+
+If you want to dive deep into JavaScript, you can give it a try to the [30DaysOfJavaScript](https://github.com/Asabeneh/30DaysOfJavaScript) challenge. This challenge will take quite long time to finish but you can get all you need about JavaScript
+
+JavaScript  
+
+1. [30DaysJavaScript challenge](https://github.com/Asabeneh/30DaysOfJavaScript)
+2. [JavaScript for Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
+3. [Functional programming in JavaScript](https://github.com/Asabeneh/Functional-Programming-in-JavaScript)
+4. [Destructuring in JavaScript](https://github.com/Asabeneh/Destructuring-in-JavaScript)
+
+React  
+
+1. [React for Everyone](https://github.com/Asabeneh/React-For-Everyon)
+
+Python  
+
+1. [30DaysOfPython](https://github.com/Asabeneh/30-Days-Of-Python)
+
  🎉 CONGRATULATIONS 🎉  
 
 Now, you knew everything you need to know about JavaScript loops.
-
-More JavaScript challenge
-
-If you want to dive deep into JavaScript, you can give it a try to the 30DaysJavaScript challenge. This challenge will take quite long time to finish but you can get all you need about JavaScript
-
-1. 30DaysJavaScript challenge: https://github.com/Asabeneh/30DaysOfJavaScript
-2. JavaScript for Everyone : https://github.com/Asabeneh/JavaScript-for-Everyone
-3. React for Everyone: https://github.com/Asabeneh/React-For-Everyone
