@@ -49,13 +49,13 @@ Loops:
 - forEach
 - for in
 
-A loop use usually goes until the condition gets false. But sometimes we like to intrupt the loop or skip an item during iteration. We use *break* to intrupt the loop  and *continue* to skip an item during iteration.
+A loop usually goes until the condition gets false. But sometimes we like to intrupt the loop or skip an item during iteration. We use *break* to intrupt the loop  and *continue* to skip an item during iteration.
 
 ## Types of Loops
 
 ### 1. for
 
-We use for loop when we know how many iteration we go. Let use the following example
+We use for loop when we know how many iteration we go. Let's see the following example
 
 ```js
 // for loop syntax
