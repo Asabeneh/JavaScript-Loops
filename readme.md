@@ -7,18 +7,16 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a>
-  </sub>
+
 
 </div>
 </div>
 
-<div>
+ <div>
 
-<small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
-[<img src = './images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true) 
- 
+<small>Support the **author** to create more educational materials</small>  
+<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+
 </div>
 
 ![JavaScript Loops](./images/javascript_loops_banner.png)
@@ -36,7 +34,7 @@
 - [Conclusions](#conclusions)
 - [More Materials](#more-materials)
 
-In programming we use different loops to carry out repetitive tasks. Therefore, loop can help us to automate tedious and repetitive task. JavaScript has also different types of loops which we can use to work on repetitive task. 
+In programming we use different loops to carry out repetitive tasks. Therefore, loop can help us to automate tedious and repetitive task. JavaScript has also different types of loops which we can use to work on repetitive task.
 
 Imagine if your are asked to print Hello world one thousand times without a loop, it may take an hour or two to do this tedious task. However, using loop we can print it in less than a second.
 
@@ -49,7 +47,7 @@ Loops:
 - forEach
 - for in
 
-A loop usually goes until the condition gets false. But sometimes we like to intrupt the loop or skip an item during iteration. We use *break* to intrupt the loop  and *continue* to skip an item during iteration.
+A loop usually goes until the condition gets false. But sometimes we like to intrupt the loop or skip an item during iteration. We use _break_ to intrupt the loop and _continue_ to skip an item during iteration.
 
 ## Types of Loops
 
@@ -68,11 +66,9 @@ for (initialization, condition, increment/decrement) {
 This code prints from 0 to 5.
 
 ```js
-
 for (let i = 0; i < 6; i++) {
   console.log(i)
 }
-
 ```
 
 For example if we want to sum all the numbers from 0 to 100.
@@ -84,15 +80,14 @@ for (let i = 0; i < 101; i++) {
 }
 
 console.log(sum)
-
 ```
 
 If we want to sum only even numbers:
 
 ```js
 let sum = 0
-for (let i = 0; i < 101; i+=2) {
-    sum += i
+for (let i = 0; i < 101; i += 2) {
+  sum += i
 }
 
 console.log(sum)
@@ -101,9 +96,9 @@ console.log(sum)
 
 let total = 0
 for (let i = 0; i < 101; i++) {
-  if(i % 2 == 0) {
+  if (i % 2 == 0) {
     total += i
-}
+  }
 }
 console.log(total)
 ```
@@ -111,7 +106,6 @@ console.log(total)
 This code iterates through the array
 
 ```js
-
 const nums = [1, 2, 3, 4, 5]
 for (let i = 0; i < 6; i++) {
   console.log(nums[i])
@@ -124,18 +118,16 @@ This code prints 5 to 0. Looping in reverse order
 for (let i = 5; i >= 0; i--) {
   console.log(i)
 }
-
 ```
 
 The Code below can reverse an array.
 
 ```js
-
 const nums = [1, 2, 3, 4, 5]
 const lastIndex = nums.length - 1
 const newArray = []
 for (let i = lastIndex; i >= 0; i--) {
-   newArray.push(nums[i])
+  newArray.push(nums[i])
 }
 
 console.log(newArray)
@@ -151,7 +143,6 @@ while (count > 0) {
   console.log(count)
   count--
 }
-
 ```
 
 ### 3. do while
@@ -164,7 +155,6 @@ do {
   console.log(count)
   count++
 } while (count < 11)
-
 ```
 
 The code below runs ones though the condition is false
@@ -190,7 +180,7 @@ for (const number of numbers) {
 }
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
-for (const country of countries ) {
+for (const country of countries) {
   console.log(country.toUpperCase())
 }
 ```
@@ -206,10 +196,9 @@ numbers.forEach((number, i) => {
 })
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
-countries.forEach ((country, i, arr ) => {
+countries.forEach((country, i, arr) => {
   console.log(i, country.toUpperCase())
 })
-
 ```
 
 ### 6. for in
@@ -217,14 +206,13 @@ countries.forEach ((country, i, arr ) => {
 The for in loop can be used with object literals to get the keys of the object.
 
 ```js
-const user  =  {
-   firstName:'Asabeneh',
-   lastName:'Yetayeh',
-   age:250,
-   country:'Finland',
-   skills:['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'D3.js']
+const user = {
+  firstName: 'Asabeneh',
+  lastName: 'Yetayeh',
+  age: 250,
+  country: 'Finland',
+  skills: ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'D3.js'],
 }
-
 
 for (const key in user) {
   console.log(key, user[key])
@@ -238,8 +226,8 @@ for (const key in user) {
 Break is used to interrupt a loop.
 
 ```js
-for(let i = 0; i <= 5; i++){
-  if(i == 3){
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
     break
   }
   console.log(i)
@@ -255,8 +243,8 @@ The above code stops if 3 found in the iteration process.
 We use the keyword continue to skip a certain iterations.
 
 ```js
-for(let i = 0; i <= 5; i++){
-  if(i == 3){
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
     continue
   }
   console.log(i)
@@ -271,27 +259,27 @@ for(let i = 0; i <= 5; i++){
 - Do while loop and while loop are almost the same but do while loop run at least once even when the condition is false
 - for of is used only for array
 - forEach is used for array
-- for in is used for object  
+- for in is used for object
 
 ## More Materials
 
 If you want to dive deep into JavaScript, you can give it a try to the [30DaysOfJavaScript](https://github.com/Asabeneh/30DaysOfJavaScript) challenge. This challenge will take quite long time to finish but you can get all you need about JavaScript
 
-JavaScript  
+JavaScript
 
 1. [30DaysJavaScript challenge](https://github.com/Asabeneh/30DaysOfJavaScript)
 2. [JavaScript for Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
 3. [Functional programming in JavaScript](https://github.com/Asabeneh/Functional-Programming-in-JavaScript)
 4. [Destructuring in JavaScript](https://github.com/Asabeneh/Destructuring-in-JavaScript)
 
-React  
+React
 
 1. [React for Everyone](https://github.com/Asabeneh/React-For-Everyone)
 
-Python  
+Python
 
 1. [30DaysOfPython](https://github.com/Asabeneh/30-Days-Of-Python)
 
- 🎉 CONGRATULATIONS 🎉  
+🎉 CONGRATULATIONS 🎉
 
 Now, you knew everything you need to know about JavaScript loops.
