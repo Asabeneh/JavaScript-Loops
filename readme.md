@@ -53,7 +53,7 @@ A loop usually goes until the condition gets false. But sometimes we like to int
 
 ### 1. for
 
-We use for loop when we know how many iteration we go. Let's see the following example
+We use for loop when we know how many iteration we go. Let's see the following example:
 
 ```js
 // for loop syntax
@@ -103,7 +103,7 @@ for (let i = 0; i < 101; i++) {
 console.log(total)
 ```
 
-This code iterates through the array
+This code iterates through the array.
 
 ```js
 const nums = [1, 2, 3, 4, 5]
@@ -112,7 +112,7 @@ for (let i = 0; i < 6; i++) {
 }
 ```
 
-This code prints 5 to 0. Looping in reverse order
+This code prints 5 to 0. Looping in reverse order.
 
 ```js
 for (let i = 5; i >= 0; i--) {
@@ -135,7 +135,7 @@ console.log(newArray)
 
 ### 2. while
 
-We use the while loop when we do not know how man iteration we go in advance.
+We use the while loop when we do not know how many iterations we will have in advance.
 
 ```js
 let count = prompt('Enter a positive number: ')
@@ -147,7 +147,7 @@ while (count > 0) {
 
 ### 3. do while
 
-Do while run at least once if the condition is true or false
+Do while runs at least once if the condition is true or false.
 
 ```js
 let count = 0
@@ -157,7 +157,7 @@ do {
 } while (count < 11)
 ```
 
-The code below runs ones though the condition is false
+The code below runs once even though the condition is false.
 
 ```js
 let count = 11
@@ -236,11 +236,11 @@ for (let i = 0; i <= 5; i++) {
 // 0 1 2
 ```
 
-The above code stops if 3 found in the iteration process.
+The above code stops if 3 is found in the iteration process.
 
 ### continue
 
-We use the keyword continue to skip a certain iterations.
+We use the keyword continue to skip certain iterations.
 
 ```js
 for (let i = 0; i <= 5; i++) {
@@ -255,15 +255,15 @@ for (let i = 0; i <= 5; i++) {
 ## Conclusions
 
 - Regular for loop can be used anywhere when the number of iteration is known.
-- While loop when the number of iteration is not know
-- Do while loop and while loop are almost the same but do while loop run at least once even when the condition is false
-- for of is used only for array
-- forEach is used for array
-- for in is used for object
+- While loop when the number of iteration is not known.
+- Do while loop and while loop are almost the same but do while loop run at least once even when the condition is false.
+- for of is used only for array.
+- forEach is used for array.
+- for in is used for object.
 
 ## More Materials
 
-If you want to dive deep into JavaScript, you can give it a try to the [30DaysOfJavaScript](https://github.com/Asabeneh/30DaysOfJavaScript) challenge. This challenge will take quite long time to finish but you can get all you need about JavaScript
+If you want to dive deep into JavaScript, you can give it a try to the [30DaysOfJavaScript](https://github.com/Asabeneh/30DaysOfJavaScript) challenge. This challenge will take quite a long time to finish but you can get all you need about JavaScript
 
 JavaScript
 
@@ -282,4 +282,4 @@ Python
 
 🎉 CONGRATULATIONS 🎉
 
-Now, you knew everything you need to know about JavaScript loops.
+Now, you know everything you need to know about JavaScript loops.
